@@ -1,0 +1,34 @@
+﻿<Window x:Class="Diplom.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        Title="RegistrationWindow"  MinHeight="480" MinWidth="700" Height="500" Width="800" MaxHeight="600" MaxWidth="850">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Center">
+            <Label Content="Регистрация" Style="{StaticResource h1Label}"/>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button Content="Регистрация" x:Name="loginButton" Click="loginButton_Click"  Style="{StaticResource ButtonMainStyle}"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Label Content="Имя" Style="{StaticResource standartLabel}" Margin="0,25,0,0"/>
+            <TextBox x:Name="nameTextBox" Style="{StaticResource standartTextBox}"/>
+            <Label x:Name="nameValidateLabel" Foreground="red" Style="{StaticResource standartLabel}"/>
+            <Label Content="Логин" Style="{StaticResource standartLabel}"/>
+            <TextBox x:Name="loginTextBox" Style="{StaticResource standartTextBox}"/>
+            <Label x:Name="loginValidateLabel" Foreground="red" Style="{StaticResource standartLabel}"/>
+            <Label Content="Пароль" Style="{StaticResource standartLabel}"/>
+            <PasswordBox x:Name="passwordTextBox" Style="{StaticResource standartPasswordBox}"/>
+            <Label x:Name="passwordValidateLabel" Foreground="red" Style="{StaticResource standartLabel}"/>
+            <Label Content="Роль" Style="{StaticResource standartLabel}"/>
+            <ComboBox x:Name="roleComboBox">
+                <ComboBoxItem Content="Студент"/>
+                <ComboBoxItem Content="Преподаватель"/>
+            </ComboBox>
+            <Label x:Name="roleValidateLabel" Foreground="red" Style="{StaticResource standartLabel}"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

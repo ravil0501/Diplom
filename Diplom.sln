@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplom", "Diplom\Diplom.csproj", "{4AB93CE8-CA9C-466A-9EE6-8F8B1D88B949}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiplomAPI", "..\DiplomAPI\DiplomAPI\DiplomAPI.csproj", "{0156A805-2711-4FDB-AD48-AA8410F5645F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4AB93CE8-CA9C-466A-9EE6-8F8B1D88B949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AB93CE8-CA9C-466A-9EE6-8F8B1D88B949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AB93CE8-CA9C-466A-9EE6-8F8B1D88B949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0156A805-2711-4FDB-AD48-AA8410F5645F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0156A805-2711-4FDB-AD48-AA8410F5645F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0156A805-2711-4FDB-AD48-AA8410F5645F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0156A805-2711-4FDB-AD48-AA8410F5645F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
